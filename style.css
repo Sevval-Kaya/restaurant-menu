@@ -10,8 +10,8 @@ body {
 }
 
 .menu {
-  max-width: 500px;
-  margin: 120px auto;
+  max-width: 800px;
+  margin: 20px auto;
   padding: 100px 40px;
   background-color: #ffffff;
   border-radius: 16px;
@@ -21,34 +21,20 @@ body {
 
 h1 {
   color: #3543a1;
-  margin-bottom: 30px;
+  margin-bottom: 35px;
   text-shadow: 1px 2px rgba(53, 67, 161, 0.15);
   font-size: 35px;
+  text-align: center;
 }
 
 .menulink {
   display: flex;
-  flex-direction: column;
-  gap: 20px;
-  margin-top: 60px;
+  flex-direction: line;
+  gap: 75px;
+  margin-top: 10px;
+ 
 }
 
-.menu-button {
-  background: linear-gradient(135deg, #b15aab, #7d81ca);
-  color: white;
-  padding: 14px;
-  text-decoration: none;
-  border-radius: 25px;
-  font-size: 17px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
-}
-
-.menu-button:hover {
-  transform: scale(1.08);
-  background: linear-gradient(135deg, #3b3f9d, #757bdb);
-}
 
 .back-link {
   display: inline-block;
@@ -105,6 +91,22 @@ h1 {
   color: #3d4db8;
   font-size: 16px;
 }
+
+.img-button{
+  width: 200px;
+  height: 200px;
+  border-radius: 25px;
+}
+.img-button:hover {
+  transform: scale(1.3);
+  background: linear-gradient(135deg, #3b3f9d, #757bdb);
+}
+
+.menulink a{
+  text-decoration: none;
+  color: #0a1233;
+}
+
 
 /* Mobil uyumluluk */
 @media (max-width: 600px) {
