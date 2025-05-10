@@ -2,13 +2,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
+  background-image: url('https://img.freepik.com/free-photo/wooden-table-looking-out-defocussed-room-interior_1048-11830.jpg?t=st=1746877022~exp=1746880622~hmac=249274e12806e2eb8073089e222c2fe982f74e6739212711cab32c59cbbd5e39&w=1800');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f0f0;
   margin: 0;
   padding: 0;
   color: #333;
 }
-
+ 
 .menu {
   max-width: 800px;
   margin: 20px auto;
